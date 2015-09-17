@@ -1,0 +1,11 @@
+{
+  "name": "docker-node-demo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello world app on CentOS using docker",
+  "author": "Stephen G. Dame" <sdame@uw.edu>",
+  "dependencies": {
+    "express": "3.2.4"
+  }
+}
+
