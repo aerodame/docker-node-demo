@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t node-demo .
+docker build --tag=node-demo --no-cache=true  .

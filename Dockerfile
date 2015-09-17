@@ -11,7 +11,7 @@ FROM node
 RUN mkdir -p /usr/app
 COPY  . /usr/app
 
-VOLUME .:/usr/app
+# VOLUME .:/usr/app
 
 # Install app dependencies
 RUN cd /usr/app; npm install
